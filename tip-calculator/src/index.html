@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
     <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="icon"
@@ -16,7 +22,7 @@
     <title>Frontend Mentor | Tip calculator app</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
+    <!-- <style>
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -29,10 +35,10 @@
         background-color: #00494d;
         color: #ffffff;
       }
-    </style>
+    </style> -->
   </head>
   <body
-    class="bg-[#c5e4e7] w-full h-screen flex flex-col justify-center items-center"
+    class="bg-[#c5e4e7] w-full h-screen flex flex-col justify-center items-center font-mono"
   >
     <div class="flex gap-8 items-center bg-[#ffffff] p-6 rounded-lg">
       <div class="w-80 h-96">
@@ -84,7 +90,7 @@
         />
       </div>
 
-      <div class="w-80 h-96 bg-[#00494d] flex-1 p-6 rounded-lg">
+      <div class="w-80 h-96 bg-[#00494d] p-6 rounded-lg">
         <div class="flex justify-between mt-6 mb-8">
           <h2 class="text-white">Tip Amount</h2>
           <span class="text-4xl font-bold text-[#26c0ab]">$0.00</span>
@@ -93,17 +99,17 @@
           <h2 class="text-white">Total</h2>
           <span class="text-4xl font-bold text-[#26c0ab]">$0.00</span>
         </div>
-        <button class="w-full bg-[#42686b] rounded-lg p-1 uppercase">
+        <button class="w-full bg-[#42686b] rounded-lg p-1 uppercase mt-36">
           Reset
         </button>
       </div>
     </div>
 
-    <!-- <div class="attribution">
+    <div class="mt-64">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/brain-ambani">brain</a>.
-    </div> -->
+    </div>
   </body>
 </html>
