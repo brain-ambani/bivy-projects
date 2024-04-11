@@ -45,6 +45,7 @@
         <h1 class="mb-2">Bill</h1>
         <input
           type="text"
+          id="billInput"
           placeholder="$ 0"
           class="p-3 bg-[#f4fafa] rounded-lg w-full"
         />
@@ -78,11 +79,12 @@
           </p>
           <p
             class="text-[#00494d] py-1 px-4 font-semibold text-xl rounded-lg bg-[#c5e4e7]"
+            id="customTip"
           >
             Custom
           </p>
         </div>
-        <p class="mt-6">Number of People</p>
+        <p class="mt-6" id="NumberofPeople">Number of People</p>
         <input
           type="text"
           placeholder="0"
@@ -92,14 +94,18 @@
 
       <div class="w-80 h-96 bg-[#00494d] p-6 rounded-lg">
         <div class="flex justify-between mt-6 mb-8">
-          <h2 class="text-white">Tip Amount</h2>
-          <span class="text-4xl font-bold text-[#26c0ab]">$0.00</span>
+          <h2 class="text-white" >Tip Amount</h2>
+          <span class="text-4xl font-bold text-[#26c0ab]" id="tipAmount"$2.00</span>
         </div>
         <div class="flex justify-between mb-6">
           <h2 class="text-white">Total</h2>
-          <span class="text-4xl font-bold text-[#26c0ab]">$0.00</span>
+          <span class="text-4xl font-bold text-[#26c0ab] "
+          id="totalAmount">$50.00</span>
         </div>
-        <button class="w-full bg-[#42686b] rounded-lg p-1 uppercase mt-36">
+        <button
+          class="w-full bg-[#42686b] rounded-lg p-1 uppercase mt-36 cursor:pointer"
+          id="resetButton"
+        >
           Reset
         </button>
       </div>
@@ -111,5 +117,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/brain-ambani">brain</a>.
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
